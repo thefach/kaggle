@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.venv
+!titanic/data/.gitkeep
+*.csv
+titanic/mlruns/*
+!titanic/mlruns/.gitkeep
