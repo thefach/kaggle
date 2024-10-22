@@ -1,0 +1,15 @@
+artifact_uri: file:///C:\Users\enric\Documents\kaggle\titanic\mlruns/608820810823880190/590c06ee15be4e238a27f584634a70c5/artifacts
+end_time: 1729607206646
+entry_point_name: ''
+experiment_id: '608820810823880190'
+lifecycle_stage: active
+run_id: 590c06ee15be4e238a27f584634a70c5
+run_name: TitanicFeatureEngineer_HistGBClassifier
+run_uuid: 590c06ee15be4e238a27f584634a70c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729607154222
+status: 3
+tags: []
+user_id: enric

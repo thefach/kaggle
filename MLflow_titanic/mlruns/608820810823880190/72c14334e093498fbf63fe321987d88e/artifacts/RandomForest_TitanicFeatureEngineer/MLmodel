@@ -1,0 +1,38 @@
+artifact_path: RandomForest_TitanicFeatureEngineer
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.8
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.17.0
+model_size_bytes: 1199918
+model_uuid: f01a07982d8f4a98b053fad380f7c8f6
+run_id: 72c14334e093498fbf63fe321987d88e
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "PassengerId", "required": true}, {"type": "long",
+    "name": "Pclass", "required": true}, {"type": "string", "name": "Sex", "required":
+    true}, {"type": "double", "name": "Age", "required": false}, {"type": "long",
+    "name": "SibSp", "required": true}, {"type": "long", "name": "Parch", "required":
+    true}, {"type": "double", "name": "Fare", "required": true}, {"type": "string",
+    "name": "Embarked", "required": false}, {"type": "long", "name": "FamilySize",
+    "required": true}, {"type": "long", "name": "IsAlone", "required": true}, {"type":
+    "string", "name": "Title", "required": true}, {"type": "string", "name": "CabinDeck",
+    "required": true}, {"type": "string", "name": "AgeGroup", "required": false},
+    {"type": "double", "name": "FarePerPerson", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-10-22 13:07:05.330206'

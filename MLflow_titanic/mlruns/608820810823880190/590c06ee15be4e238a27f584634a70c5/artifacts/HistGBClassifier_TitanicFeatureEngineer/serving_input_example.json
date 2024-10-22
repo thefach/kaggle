@@ -1,0 +1,96 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Pclass",
+      "Sex",
+      "Age",
+      "SibSp",
+      "Parch",
+      "Fare",
+      "Embarked",
+      "FamilySize",
+      "IsAlone",
+      "Title",
+      "CabinDeck",
+      "AgeGroup",
+      "FarePerPerson"
+    ],
+    "data": [
+      [
+        1,
+        "male",
+        45.5,
+        0,
+        0,
+        28.5,
+        "S",
+        1,
+        1,
+        "Mr",
+        "C",
+        "Adult",
+        28.5
+      ],
+      [
+        2,
+        "male",
+        23.0,
+        0,
+        0,
+        13.0,
+        "S",
+        1,
+        1,
+        "Mr",
+        "Unknown",
+        "Young Adult",
+        13.0
+      ],
+      [
+        3,
+        "male",
+        32.0,
+        0,
+        0,
+        7.925,
+        "S",
+        1,
+        1,
+        "Mr",
+        "Unknown",
+        "Young Adult",
+        7.925
+      ],
+      [
+        3,
+        "male",
+        26.0,
+        1,
+        0,
+        7.8542,
+        "S",
+        2,
+        0,
+        "Mr",
+        "Unknown",
+        "Young Adult",
+        3.9271
+      ],
+      [
+        3,
+        "female",
+        6.0,
+        4,
+        2,
+        31.275,
+        "S",
+        7,
+        0,
+        "Miss",
+        "Unknown",
+        "Child",
+        4.4678571428571425
+      ]
+    ]
+  }
+}
