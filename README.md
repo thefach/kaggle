@@ -20,7 +20,7 @@ The objective is to **track and evaluate multiple experiments** on two versions 
   ### Modeling and Methodology
 
   The exploratory data analysis **(EDA)** can be found in the `notebooks/`folder. <br>
-  The `MLflow_titanic/titanic_feature_engineer.py` file contains 2 custom transformers used for feature engineering. `TitanicFeatureEngineer` adds 5 more features, `ExtendedTitanicFeatureEngineer` adds 12.
+  The `MLflow_titanic/titanic_feature_engineer.py` file contains 2 custom transformers used for feature engineering. `TitanicFeatureEngineer` adds 5 more features, `ExtendedTitanicFeatureEngineer` adds 12.<br>
   the `MLflow_titanic\classifiers_mlflow_experiments.py` run the experiment. It performs:
   
 1. Get data and set up train-test split
@@ -29,10 +29,10 @@ The objective is to **track and evaluate multiple experiments** on two versions 
     - Logistic Regression
     - Support Vector Classifier
     - Random Forest Classifier
-    - Histogram-based Gradient Boosting Classification Tree  (it handles alone missing data)
+    - Histogram-based Gradient Boosting Classification Tree  (cos it handles alone missing data)
 4. `Sklearn pipelines` are used for preprocessing and modeling 
 
-  # Results
+  ### Results
 the model with the best performance is found to be the Random Forest Classifier over the vanilla `Titanic Feature Engineer`, even if the Logistic reg over the `ExtendedTitanicFeatureEngineer` performs similarly.
 
 ![_results.png](MLflow_titanic\mlflow_UI_results.png)
