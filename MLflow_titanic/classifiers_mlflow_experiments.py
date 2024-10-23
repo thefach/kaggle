@@ -6,7 +6,6 @@ import os
 print(os.getcwd())
 
 import pandas as pd
-import numpy as np
 
 from titanic_feature_engineer import TitanicFeatureEngineer, ExtendedTitanicFeatureEngineer
 
@@ -19,8 +18,6 @@ from sklearn.ensemble import RandomForestClassifier, HistGradientBoostingClassif
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, f1_score
-from sklearn.experimental import enable_iterative_imputer
-from sklearn.impute import IterativeImputer
 
 import mlflow
 import mlflow.sklearn
