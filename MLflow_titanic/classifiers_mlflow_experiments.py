@@ -114,7 +114,7 @@ for fe_name, fe_transformer in feature_transformers.items():
 
         print(f"Experiment {lr_fe_name} completed successfully: Accuracy = {accuracy:.4f}, F1 Score = {f1:.4f}")
 
-########## Adding Support Vector Classifier (SVC) ##########
+########## Support Vector Classifier (SVC) ##########
 # Define parameter grid for SVC
 svc_param_grid = {
     'model__C': [0.1, 1, 10],
@@ -257,7 +257,7 @@ for fe_name, fe_transformer in feature_transformers.items():
 
         print(f"Experiment {fe_name} completed successfully: Accuracy = {accuracy:.4f}, F1 Score = {f1:.4f}")
 
-########## HistGBClassifierr ##########
+########## Histogram-based Gradient Boosting Classification Tree ##########
 # Define parameter grid for HistGBClassifier
 gb_param_grid = {
     'model__max_iter': [100, 200, 300],
