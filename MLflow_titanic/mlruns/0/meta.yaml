@@ -1,6 +1,6 @@
-artifact_location: file:///C:\Users\enric\Documents\kaggle\titanic\mlruns/0
-creation_time: 1729602206679
+artifact_location: file:///C:\Users\enric\Documents\kaggle\MLflow_titanic\mlruns/0
+creation_time: 1729793809565
 experiment_id: '0'
-last_update_time: 1729602206679
+last_update_time: 1729793809565
 lifecycle_stage: active
 name: Default

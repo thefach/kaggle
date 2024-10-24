@@ -1,0 +1,15 @@
+artifact_uri: file:///C:\Users\enric\Documents\kaggle\MLflow_titanic\mlruns/370133384786671548/b44bc7f72f254353b628d0603b7ef284/artifacts
+end_time: 1729793836247
+entry_point_name: ''
+experiment_id: '370133384786671548'
+lifecycle_stage: active
+run_id: b44bc7f72f254353b628d0603b7ef284
+run_name: TitanicFeatureEngineer_LogisticRegression
+run_uuid: b44bc7f72f254353b628d0603b7ef284
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729793810792
+status: 3
+tags: []
+user_id: enric
