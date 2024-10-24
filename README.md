@@ -35,7 +35,7 @@ The objective is to **track and evaluate multiple experiments** on two versions 
   ### Results
 the model with the best performance is found to be the Random Forest Classifier over the  `ExtendedTitanicFeatureEngineer` tranformer.
 
-![_results.png](MLflow_titanic\mlflow_UI_results.png)
+![_results.png](MLflow_titanic/mlflow_UI_results.png)
 
 The `submission.py` file extracts the `submission.csv`, it obtained an 80% score on the Kaggle competition. 
 
