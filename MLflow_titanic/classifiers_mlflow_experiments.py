@@ -81,7 +81,7 @@ def run_model_experiment(model_name, model, param_grid, fe_name, fe_transformer,
         ])
 
         # Step 5: Perform Grid Search with Cross-Validation
-        grid_search = GridSearchCV(estimator=pipeline, param_grid=param_grid, cv=3, n_jobs=-1, verbose=2)
+        grid_search = GridSearchCV(estimator=pipeline, param_grid=param_grid, cv=5, n_jobs=-1, verbose=2)
         grid_search.fit(X_train_fe, y_train)
 
         # Get the best model

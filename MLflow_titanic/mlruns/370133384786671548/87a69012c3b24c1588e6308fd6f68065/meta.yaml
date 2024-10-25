@@ -1,0 +1,15 @@
+artifact_uri: file:///C:\Users\enric\Documents\kaggle\MLflow_titanic\mlruns/370133384786671548/87a69012c3b24c1588e6308fd6f68065/artifacts
+end_time: 1729854081588
+entry_point_name: ''
+experiment_id: '370133384786671548'
+lifecycle_stage: active
+run_id: 87a69012c3b24c1588e6308fd6f68065
+run_name: ExtendedTitanicFeatureEngineer_SVC
+run_uuid: 87a69012c3b24c1588e6308fd6f68065
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729853961785
+status: 3
+tags: []
+user_id: enric

@@ -3,11 +3,11 @@ import pandas as pd
 import sys
 import os
 
-from titanic_feature_engineer import ExtendedTitanicFeatureEngineer
+from titanic_feature_engineer import TitanicFeatureEngineer
 from sklearn.pipeline import Pipeline
 
 # Path to the saved model pickle (replace with the provided path)
-model_path = "mlruns/608820810823880190/4fbda61f10574ee9957698d4e94e4308/artifacts/RandomForest_ExtendedTitanicFeatureEngineer/model.pkl"
+model_path = "mlruns/370133384786671548/72bd08a1acb244dbb3ad530e54ee43de/artifacts/RandomForestClassifier_TitanicFeatureEngineer/model.pkl"
 
 # Load the model
 try:
@@ -27,7 +27,7 @@ if not os.path.exists(test_data_path):
 test_data = pd.read_csv(test_data_path)
 
 # Apply feature engineering
-feature_engineer = ExtendedTitanicFeatureEngineer()
+feature_engineer = TitanicFeatureEngineer()
 test_data_features = feature_engineer.transform(test_data)
 
 # Prepare the test data (exclude PassengerId for prediction)

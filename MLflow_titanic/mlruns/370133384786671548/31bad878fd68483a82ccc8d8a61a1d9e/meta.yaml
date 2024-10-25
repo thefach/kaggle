@@ -1,0 +1,15 @@
+artifact_uri: file:///C:\Users\enric\Documents\kaggle\MLflow_titanic\mlruns/370133384786671548/31bad878fd68483a82ccc8d8a61a1d9e/artifacts
+end_time: 1729854925182
+entry_point_name: ''
+experiment_id: '370133384786671548'
+lifecycle_stage: active
+run_id: 31bad878fd68483a82ccc8d8a61a1d9e
+run_name: ExtendedTitanicFeatureEngineer_RandomForestClassifier
+run_uuid: 31bad878fd68483a82ccc8d8a61a1d9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729854697822
+status: 3
+tags: []
+user_id: enric
