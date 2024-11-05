@@ -33,7 +33,7 @@ The objective is to **track and evaluate multiple experiments** on two versions 
 4. `Sklearn pipelines` are used for preprocessing and modeling 
 
   ### Results
-the model with the best performance is found to be the Random Forest Classifier over the  `ExtendedTitanicFeatureEngineer` tranformer.
+the model with the best performance is found to be the Random Forest Classifier over the  `TitanicFeatureEngineer` tranformer.
 
 ![_results.png](MLflow_titanic/mlflow_UI_results.png)
 

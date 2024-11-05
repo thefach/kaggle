@@ -1,6 +1,6 @@
 .ipynb_checkpoints
 .venv
-!titanic/data/.gitkeep
+!MLflow_titanic/data/.gitkeep
 *.csv
-titanic/mlruns/*
-!titanic/mlruns/.gitkeep
+MLflow_titanic/mlruns/*
+!MLflow_titanic/mlruns/.gitkeep
