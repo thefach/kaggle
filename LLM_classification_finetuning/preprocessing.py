@@ -15,7 +15,7 @@ def get_exploded_df(d):
 
     return d.explode(['prompt', 'response_a', 'response_b']).reset_index(drop=True)
 
-def get_class_label(d):
+def label_encoding(d):
     # Label conversion
     d["class_name"] = d[["winner_model_a", "winner_model_b" , "winner_tie"]].idxmax(axis=1)
     d["class_label"] = d.class_name.map(PARAM.name2label)
