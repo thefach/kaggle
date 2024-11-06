@@ -41,7 +41,27 @@ The `submission.py` file extracts the `submission.csv`, it obtained an 80% score
 
 </details>
 
-  ## Next project
+
+## LLM Classification Finetuning
+
+This project is a template for creating differente feature engineering pipeline using **MLflow** to fine-tune LLM models like ALBERT. It will be used in the Kaggle competition that challenges to predict which responses users will prefer in a head-to-head battle between chatbots powered by LLMs.
+
+<details>
+  <summary>Project structure</summary>
+
+  ### Data
+  [User interactions from the ChatBot Arena](https://www.kaggle.com/competitions/llm-classification-finetuning/data)
+
+  ### Modeling and Methodology
+
+  The exploratory data analysis **(EDA)** can be found in the `LLM_classification_finetuning/EDA.ipynb`. <br>
+  The `LLM_classification_finetuning/FE1.ipynb` file one method for feature engineering. <br>
+  The `LLM_classification_finetuning/FE2.ipynb` file a second method for feature engineering. <br>
+  The `LLM_classification_finetuning/parameters.py` file creates a class that contains all the customized parameters. <br>
+  The `LLM_classification_finetuning/get_data.py` file contains custom functions to retrieve the data. <br>
+  The `LLM_classification_finetuning/preprocessing.py` file contains custom functions to preprocess/transform the data. <br>
+
+
 
 
 
