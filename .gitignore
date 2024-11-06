@@ -4,3 +4,4 @@
 *.csv
 MLflow_titanic/mlruns/*
 !MLflow_titanic/mlruns/.gitkeep
+!LLM_classification_finetuning/data/.gitkeep
