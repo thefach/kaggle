@@ -7,3 +7,4 @@ MLflow_titanic/mlruns/*
 !LLM_classification_finetuning/data/.gitkeep
 toys/mlruns
 /toys/results
+toys/
